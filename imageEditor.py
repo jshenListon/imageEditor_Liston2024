@@ -207,7 +207,7 @@ with edit_tab:
 
         # Gray-scale Masking by Yohan Vattamkandathil Basil
         st.caption("Gray scale masking, by Yohan Vattamkandathil Basil ")
-        with st.expander("Gay Scale Masking"): 
+        with st.expander("Gray Scale Masking"): 
             mask_threshold = st.slider("Mask Intensity", 0, 255, 0, step=1)
 
             if mask_threshold:
